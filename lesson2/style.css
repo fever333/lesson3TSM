@@ -1,0 +1,12 @@
+.block {
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+}
+
+.block:hover {
+    background-color: red;
+    cursor: pointer;
+    width: calc(300px/2);
+    
+}
